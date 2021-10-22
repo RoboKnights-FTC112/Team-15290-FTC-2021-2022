@@ -31,7 +31,6 @@ public class Team15290 extends LinearOpMode {
         
         waitForStart();
         
-        // This is based on our configuration file
         fr = hardwareMap.get(DcMotor.class,"fr");
         fl = hardwareMap.get(DcMotor.class,"fl");
         br = hardwareMap.get(DcMotor.class,"br");
@@ -71,9 +70,9 @@ public class Team15290 extends LinearOpMode {
             }
             
             if (gamepad1.right_trigger > 0.03){
-               la.setPower(.1);
+               la.setPower(.5);
             } else if (gamepad1.left_trigger > 0.03){
-                la.setPower(-.1);
+                la.setPower(-.5);
             } else {
                 la.setPower(0.01);
             } 
