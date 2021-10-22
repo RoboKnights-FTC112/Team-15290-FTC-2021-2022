@@ -31,6 +31,7 @@ public class Team15290 extends LinearOpMode {
         
         waitForStart();
         
+        // This is based on our configuration file
         fr = hardwareMap.get(DcMotor.class,"fr");
         fl = hardwareMap.get(DcMotor.class,"fl");
         br = hardwareMap.get(DcMotor.class,"br");
