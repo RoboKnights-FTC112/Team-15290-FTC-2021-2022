@@ -209,7 +209,7 @@ public class BlueBottomAutoCompVision extends LinearOpMode {
         bl.setPower(.3);
         sleep(1100);
         stopMotors();
-        setMotors(.4);
+        setMotors(.3);
         sleep(800);
         stopMotors();
     }
@@ -217,7 +217,7 @@ public class BlueBottomAutoCompVision extends LinearOpMode {
     public void retreat(){
         sleep(1300);
         setMotors(-.3);
-        sleep(1000);
+        sleep(1500);
         stopMotors();
         fl.setPower(.3);
         bl.setPower(.3);
